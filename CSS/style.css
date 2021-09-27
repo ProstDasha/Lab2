@@ -20,6 +20,7 @@ body {
   display: inline;
   margin-right: 45px;
 }
+
 .nav a {
   color: black;
   font-weight: bold;
@@ -60,10 +61,18 @@ body {
 
   text-align: center;
 
-  color: #322F2E;
+  color: #322f2e;
 }
 
-.New-Report{
+.container p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 33px;
+}
+
+.New-Report {
   background: #f9a38f;
   border-radius: 20px;
 
@@ -77,7 +86,7 @@ body {
 
   color: #ffffff;
 }
-.New-Report span{
+.New-Report span {
   background: #f9ede2;
   border-radius: 20px;
 
@@ -92,5 +101,120 @@ body {
   color: #000;
 }
 
-/*hhh*/
+.Wacarta {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: var(--btn-color);
+}
 
+.QqQ button {
+  border: 2px solid #e1ded9;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.QqQ a {
+  color: black;
+  text-decoration: none;
+}
+
+.QqQ h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.QqQ p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.new-does h2{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 53px;
+  line-height: 62px;
+}
+
+.new-does p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.new-does input{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.End p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.End2 p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.End3 p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #d3d3d3;
+}
+
+.card p{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.card {
+  background-color: #32686f;
+  color: #ffffff;
+}
+
+.card-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav1 li {
+  list-style-type: none;
+  margin-right: 45px;
+  font-weight: bold;
+}
+
+.nav1 a {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}

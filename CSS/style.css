@@ -10,36 +10,85 @@ body {
 
   background-color: #fff8ee;
 
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.nav li{ 
+.nav li {
   list-style-type: none;
   display: inline;
   margin-right: 45px;
 }
-.nav a{
+.nav a {
   color: black;
   font-weight: bold;
   text-decoration: none;
 }
 
-.btn1{
+.btn1 {
   background: var(--btn-color);
   border-radius: 50px;
   text-align: center;
   width: 129px;
   height: 47px;
-  
+
   border: 0;
 }
 
-.btn1 a{
+.btn1 a {
   color: var(--btn-link-color);
   text-decoration: none;
 }
 
+.text-osn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 33px;
 
+  color: #322f2e;
+}
+
+.container h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 119px;
+
+  text-align: center;
+
+  color: #322F2E;
+}
+
+.New-Report{
+  background: #f9a38f;
+  border-radius: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.New-Report span{
+  background: #f9ede2;
+  border-radius: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #000;
+}
 

@@ -88,7 +88,7 @@ body {
 }
 .New-Report span {
   background: #f9ede2;
-  border-radius: 20px;
+  border-radius: 20px; /*mmmm*/
 
   font-family: "Roboto";
   font-style: normal;

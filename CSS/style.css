@@ -15,24 +15,34 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.navV {
+  position: static;
+  display: flex;
+}
+
 .nav li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin-right: 45px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .nav a {
   color: black;
   font-weight: bold;
   text-decoration: none;
+
+  height: 40px;
+  padding: 10px;
 }
 
 .btn1 {
   background: var(--btn-color);
   border-radius: 50px;
   text-align: center;
-  width: 129px;
-  height: 47px;
+  width: 100px;
+  height: 35px;
 
   border: 0;
 }
@@ -40,6 +50,11 @@ body {
 .btn1 a {
   color: var(--btn-link-color);
   text-decoration: none;
+}
+
+.btnC {
+  width: 100%;
+  text-align: center;
 }
 
 .text-osn {
@@ -70,9 +85,14 @@ body {
   font-weight: 500;
   font-size: 21px;
   line-height: 33px;
+
+  text-align: center;
+  width: 524px;
+  margin: auto;
+  padding: 10px 0;
 }
 
-.New-Report {
+.New-Report p {
   background: #f9a38f;
   border-radius: 20px;
 
@@ -85,7 +105,26 @@ body {
   text-align: center;
 
   color: #ffffff;
+
+  position: absolute;
+  height: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 51px;
+  margin-right: auto;
+  margin-left: auto;
+
+  /*cursor: pointer;*/
 }
+
+.New-Report {
+  display: flex;
+  width: 230px;
+  height: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .New-Report span {
   background: #f9ede2;
   border-radius: 20px; /*mmmm*/
@@ -95,26 +134,54 @@ body {
   font-weight: bold;
   font-size: 13px;
   line-height: 25px;
-
   text-align: center;
 
   color: #000;
+
+  position: absolute;
+  left: 51%;
+  z-index: 1;
+  height: 25px;
+  width: 190px;
+  margin-left: 42px;
+}
+
+.img {
+  display: block;
+  margin: auto;
 }
 
 .Wacarta {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration: none;
-  color: var(--btn-color);
+  display: block;
+  margin: auto;
+}
+
+.img2 {
+  display: block;
+  margin: auto;
+}
+
+.Qq1 {
+  position: relative;
+  display: flex;
+  margin: 0 auto 30px;
+  padding-top: 0;
+}
+
+.Qq2 {
+  position: relative;
+  display: flex;
+  margin: 0 auto 30px;
+  padding-top: 0;
 }
 
 .QqQ button {
   border: 2px solid #e1ded9;
   box-sizing: border-box;
   border-radius: 50px;
+
+  display: block;
+  margin: auto;
 }
 
 .QqQ a {
@@ -131,15 +198,16 @@ body {
   text-align: center;
 }
 
-.QqQ p{
+.QqQ p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
+  text-align: center;
 }
 
-.new-does h2{
+.new-does h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -147,7 +215,7 @@ body {
   line-height: 62px;
 }
 
-.new-does p{
+.new-does p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -155,7 +223,7 @@ body {
   line-height: 20px;
 }
 
-.new-does input{
+.new-does input {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -163,7 +231,7 @@ body {
   line-height: 20px;
 }
 
-.End p{
+.End p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -171,7 +239,7 @@ body {
   line-height: 20px;
 }
 
-.End2 p{
+.End2 p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -179,8 +247,8 @@ body {
   line-height: 20px;
 }
 
-.End3 p{
-  font-family: 'Roboto';
+.End3 p {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -189,7 +257,7 @@ body {
   color: #d3d3d3;
 }
 
-.card p{
+.card p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;

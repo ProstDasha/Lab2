@@ -25,8 +25,39 @@
         </div>
     </header>
 
+    <main>
+        <form>
+            <fieldset class="INF">
+                <legend>Личная информация</legend>
+                <div class="OTH"><label >Имя<input type="text" name="name" placeholder="Введите имя" required></label></div>
+                <div class="OTH"><label >Дата рождения<input type="date" name="date" required></label></div>
+                <div class="RADIO">
+                  <p>Пол</p>
+                  <label><input type="radio" name="Пол" value="Ж">Женский</label>
+                  <label><input type="radio" name="Пол" value="М">Мужской</label>
+                </div>
+                <div class="OTH"><lable for="password">Пароль<input type="password" name="password" id="password" required></lable></div>
+            </fieldset>
+            
+            <fieldset class="INF">
+                <legend>Контактные данные</legend>
+                <div class="OTH"><label >E-mail<input type="email" name="email" placeholder=" example@domain.com " required></label></div>
+                <div class="OTH"><label >Телефон<input type="tel" name="tel" placeholder=" +7(999)999-99-99 "></label></div>
+                <div class="CHECK">
+                  <p>Удобный интервал для связи</p>
+                  <label><input type="checkbox" name="checked" value="У">Утро</label>
+                  <label><input type="checkbox" name="checked" value="Д">День</label>
+                  <label><input type="checkbox" name="checked" value="В">Вечер</label>
+                  <label><input type="checkbox" name="checked" value="Н">Ночь</label>
+              </div>
+            </fieldset>
 
-    <footer class="Niz">
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+        </form>
+      </main>
+
+    <footer class="Niz2">
         <div>
           <div class="End">
             <img src="img/logo.svg" alt="Логотип" />
@@ -54,7 +85,7 @@
           <div class="nav2">
             <ul>
               <li>Links</li>
-              <li><a href="#">Home</a></li>
+              <li><a href="#top">Home</a></li>
               <li><a href="#">About us</a></li>
               <li><a href="#">Why arcarta</a></li>
               <li><a href="#">Success Stories</a></li>

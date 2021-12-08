@@ -685,3 +685,55 @@ input::placeholder {
 input:required {
   background-color: #fcf4ef;
 }
+
+dt {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+dd {
+  margin-right: 40px;
+  margin-bottom: 3%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+dd::first-letter {
+  font-size: 50px;
+  font-weight: 500;
+  color: #c47344;
+}
+
+dt.psevdo::after {
+  content: " \1F6C8";
+}
+
+.INF ul {
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+li input:checked + span {
+  text-decoration: line-through;
+}
+
+.psevdoelement li:nth-child(odd) {
+  background-color: #d1ac97;
+}
+
+.psevdoelement li:nth-child(even) {
+  background-color: #f5e1d4;
+}
+
+.psevdoclass li:nth-child(odd) {
+  background-color: #d1ac97;
+}
+
+.psevdoclass li:nth-child(even) {
+  background-color: #f5e1d4;
+}

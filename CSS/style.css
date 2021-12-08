@@ -625,6 +625,10 @@ body {
   margin-bottom: 20px;
 }
 
+.RADIO input:checked + span {
+  color: #c47344;
+}
+
 .CHECK {
   font-size: 20px;
   font-weight: 500;

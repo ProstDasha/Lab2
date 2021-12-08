@@ -2,6 +2,9 @@
   --btn-color : #c47344;
   --btn-link-color : white;
   }
+  ::selection{
+    background: #c47344;
+  }
 
   body {
   padding-top : 45px;
@@ -37,7 +40,7 @@
   list-style-type : none;
   display : inline-block;
   margin-right : 10px;
-  filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  
   }
 
   .nav a {
@@ -46,6 +49,14 @@
   text-decoration : none;
   height : 40px;
   padding : 10px;
+  }
+
+  .nav a:hover{
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .nav a:active{
+    color: #c47344;  
   }
 
   .btnC {
@@ -66,6 +77,14 @@
   padding-bottom : 12px;
   border : 0;
   margin : auto;
+  }
+
+  .btn1:hover {
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .btn1:active{
+    color: black;  
   }
 
   .text-osn {
@@ -97,6 +116,14 @@
   width : 524px;
   margin : auto;
   margin-bottom : 20px;
+  }
+
+  .container a:hover {
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .container a:active{
+    color: black;  
   }
 
   .New-Report p {
@@ -249,6 +276,14 @@
   text-decoration : none;
   }
 
+  .QqQ a:hover {
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .QqQ a:active{
+    color: #c47344;  
+  }
+
   .QqQ h2 {
   font-family : "Roboto";
   font-style : normal;
@@ -308,6 +343,14 @@
   display : block;
   color : black;
   text-decoration : none;
+  }
+
+  .new-does a:hover {
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .new-does a:active{
+    color: #c47344;  
   }
 
   .BCND {
@@ -409,6 +452,14 @@
   color : black;
   font-weight : 400;
   text-decoration : none;
+  }
+
+  .nav1 a:hover{
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .nav1 a:active{
+    color: #c47344;  
   }
 
   .nav2 {
@@ -575,6 +626,10 @@
   font-weight : 500;
   }
 
+  .CHECK input:checked + span{
+    color : #c47344;
+  }
+
   .CHECK input {
   margin-right : 10px;
   margin-bottom: 20px;
@@ -598,4 +653,30 @@
   display : table;
   margin : 0 auto;
   padding-top : 30px;
+  }
+
+  .OtSb button:hover {
+    filter : drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25)) drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+  }
+
+  .OtSb button:active{
+    color: black;  
+  }
+
+  .OtSb button:disabled{
+  background : #886d5d;
+  filter: none;
+  }
+
+  input:focus{
+    outline: none; 
+    border: 2px solid #c47344;
+  }
+
+  input::placeholder {
+    color: gray;
+  }
+
+  input:required {
+    background-color: #fcf4ef;
   }

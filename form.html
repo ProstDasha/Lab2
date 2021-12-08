@@ -36,7 +36,7 @@
               <label><input type="radio" name="Пол" value="Ж">Женский</label>
               <label><input type="radio" name="Пол" value="М">Мужской</label>
             </div>  
-            <lable class="OTH">Пароль<input type="password" name="password" id="password" required></lable>
+            <lable class="OTH">Пароль<input type="password" name="password" id="password" placeholder="Введите пароль" required></lable>
         </fieldset>
         
         <fieldset class="INF">
@@ -45,16 +45,16 @@
             <label class="OTH">Телефон<input type="tel" name="tel" placeholder=" +7(999)999-99-99 "></label>
             <p>Удобный интервал для связи</p>
             <div class="CHECK">              
-              <label><input type="checkbox" name="checked" value="У">Утро</label>
-              <label><input type="checkbox" name="checked" value="Д">День</label>
-              <label><input type="checkbox" name="checked" value="В">Вечер</label>
-              <label><input type="checkbox" name="checked" value="Н">Ночь</label>
+              <label><input type="checkbox" name="checked" value="У"><span>Утро</span></label>
+              <label><input type="checkbox" name="checked" value="Д"><span>День</span></label>
+              <label><input type="checkbox" name="checked" value="В"><span>Вечер</span></label>
+              <label><input type="checkbox" name="checked" value="Н"><span>Ночь</span></label>
             </div>
         </fieldset>
 
         <div class="OtSb">
-          <button type="submit">Отправить</button>
-          <button type="reset">Сбросить</button>
+          <button type="submit" class="Ndisabled">Отправить</button>
+          <button type="reset" disabled >Сбросить</button>
         </div>
     </form>
     </main>

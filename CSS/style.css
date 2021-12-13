@@ -53,9 +53,9 @@ body {
 .nav a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .nav a:active {
@@ -85,9 +85,9 @@ body {
 .btn1:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .btn1:active {
@@ -128,9 +128,9 @@ body {
 .container a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .container a:active {
@@ -346,8 +346,12 @@ body {
 }
 
 @keyframes ani {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .NewCardQ {
@@ -377,26 +381,34 @@ body {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes annn {
-  0% {opacity: 1;}
-  100% {opacity: 0;}
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .loader:hover {
-  transition-property:  all;
+  transition-property: all;
   transition-duration: 2s;
 }
 
 .QQQ a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .QQQ a:active {
@@ -448,9 +460,9 @@ body {
 .new-does a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .new-does a:active {
@@ -561,9 +573,9 @@ body {
 .nav1 a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .nav1 a:active {
@@ -773,9 +785,9 @@ body {
 .OtSb button:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-    transition-property:  all;
-    transition-duration: 1s;
-    transition-delay: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: none;
 }
 
 .OtSb button:active {
@@ -850,4 +862,146 @@ li input:checked + span {
 
 .psevdoclass li:nth-child(even) {
   background-color: #f5e1d4;
+}
+
+.Grad section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.INF2 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 40px 60px 20px 60px;
+  border-radius: 10px;
+  background: #faf7f3;
+  display: flex;
+}
+
+.INF2:hover {
+  box-shadow: -5px 5px #c47344;
+}
+
+.INF2 legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.INF2 h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.INF2 div {
+  margin: auto;
+  padding: 2em;
+  width: 100px;
+}
+
+.linear {
+  background-image: repeating-linear-gradient(
+    0.3turn,
+    #c47344 0px 10px,
+    #f5e1d4 10px 20px
+  );
+}
+
+.radial {
+  background-image: radial-gradient(#c47344, #f5e1d4);
+  margin: 0 auto;
+}
+
+.conic {
+  background-image: conic-gradient(
+    #c47344,
+    #d1ac97,
+    #f5e1d4,
+    #f5e1d4,
+    #d1ac97,
+    #c47344
+  );
+}
+
+.wrap {
+  display: inline-block;
+  margin: 0 40px 2em 0;
+}
+.wrap div {
+  width: 170px;
+  height: 100px;
+  margin: 0 auto;
+  transition: all 0.5s ease-in-out;
+}
+.one {
+  background-image: repeating-linear-gradient(
+    1turn,
+    #c47344 0px 10px,
+    #f5e1d4 10px 20px
+  );
+}
+.one:hover {
+  transform: translateX(40px);
+}
+
+.two {
+  background-image: repeating-linear-gradient(
+    0.25turn,
+    #f5e1d4 0px 10px,
+    #c47344 10px 20px
+  );
+}
+
+.two:hover {
+  transform: scaleY(1.3);
+}
+
+.three {
+  background-image: radial-gradient(#c47344, #f5e1d4);
+}
+.three:hover {
+  transform: rotateX(51deg) rotateY(35deg) perspective(700px);
+}
+
+.four {
+  background-image: radial-gradient(#f5e1d4, #c47344);
+}
+
+.four:hover {
+  transform: rotateX(360deg);
+}
+
+.five {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color:#c47344;
+  transition: width 5s, height 5s, background-color 5s, transform 5s;
+}
+
+.five:hover {
+  background-color:#f5e1d4;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+
+.six {
+  background-image: conic-gradient(
+    #f5e1d4,
+    #d1ac97,
+    #c47344,
+    #c47344,
+    #d1ac97,
+    #f5e1d4
+  );
+  transition-timing-function: transform 5s ease-out;
+}
+
+.six:hover {
+  transform: translateX(60px);
 }

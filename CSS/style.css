@@ -53,6 +53,9 @@ body {
 .nav a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
 }
 
 .nav a:active {
@@ -82,6 +85,9 @@ body {
 .btn1:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
 }
 
 .btn1:active {
@@ -122,6 +128,9 @@ body {
 .container a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
 }
 
 .container a:active {
@@ -278,15 +287,6 @@ body {
   text-decoration: none;
 }
 
-.QqQ a:hover {
-  filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
-    drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
-}
-
-.QqQ a:active {
-  color: #c47344;
-}
-
 .QqQ h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -299,12 +299,91 @@ body {
 .QqQ p {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   line-height: 28px;
   text-align: center;
 }
 
+.NewCardQ h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.NewCardQ p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.NewCardQ a {
+  background: #fffaf2;
+  border: #dddddd solid 2px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 150px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  color: black;
+  text-decoration: none;
+}
+
+.NewCardQ {
+  width: 930px;
+  box-sizing: border-box;
+  background: #fffaf2;
+  border-radius: 20px;
+  border: #dddddd solid 1px;
+  box-shadow: 1px 1px 20px rgb(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 50px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #c47344; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader:hover {
+  transition-property:  all;
+  transition-duration: 2s;
+}
+
+.QQQ a:hover {
+  filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
+    drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
+}
+
+.QQQ a:active {
+  color: #c47344;
+}
 .new-does {
   margin-left: 655px;
   margin-top: -300px;
@@ -351,6 +430,9 @@ body {
 .new-does a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
 }
 
 .new-does a:active {
@@ -461,6 +543,9 @@ body {
 .nav1 a:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
 }
 
 .nav1 a:active {
@@ -666,6 +751,9 @@ body {
 .OtSb button:hover {
   filter: drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25))
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
+    transition-property:  all;
+    transition-duration: 1s;
+    transition-delay: none;
 }
 
 .OtSb button:active {

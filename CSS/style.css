@@ -55,7 +55,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .nav a:active {
@@ -87,7 +86,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .btn1:active {
@@ -130,7 +128,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .container a:active {
@@ -376,7 +373,6 @@ body {
   width: 120px;
   height: 120px;
   animation: spin 1s linear infinite, annn 5s linear forwards;
-  animation-delay: annn 2s;
   margin-top: 20px;
 }
 
@@ -408,7 +404,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .QQQ a:active {
@@ -462,7 +457,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .new-does a:active {
@@ -575,7 +569,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .nav1 a:active {
@@ -787,7 +780,6 @@ body {
     drop-shadow(0 4px 4px rgb(0, 0, 0, 0.25));
   transition-property: all;
   transition-duration: 1s;
-  transition-delay: none;
 }
 
 .OtSb button:active {
@@ -999,7 +991,7 @@ li input:checked + span {
     #d1ac97,
     #f5e1d4
   );
-  transition-timing-function: transform 5s ease-out;
+  transition-timing-function: 5s ease-out;
 }
 
 .six:hover {

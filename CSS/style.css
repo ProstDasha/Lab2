@@ -18,17 +18,33 @@ body {
   min-width: 1440px;
 }
 .VnavV {
+<<<<<<< HEAD
   margin:auto;
   width: 1440px;
+=======
+  margin: 0 auto;
+  max-width: 1600px;
+>>>>>>> 6e6b91a2743d86075c4706c7eda1a060cdb14d28
 }
+
+
+
 .logo {
   margin-top: 20px;
 }
 .navV {
+<<<<<<< HEAD
   float: right;
   margin-top: 25px;
+=======
+  margin-left: 550px;
+  margin-top: -25px;
+>>>>>>> 6e6b91a2743d86075c4706c7eda1a060cdb14d28
   display: flex;
 }
+
+
+
 .nav li {
   list-style-type: none;
   display: inline-block;

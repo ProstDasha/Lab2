@@ -15,20 +15,26 @@ body {
   font-family: "Roboto", sans-serif;
   display: grid;
   min-height: 100vh;
+  min-width: 1440px;
 }
 .VnavV {
-  margin: auto;
-  width: 1300px;
+  margin: 0 auto;
+  max-width: 1600px;
 }
+
+
+
 .logo {
-  margin-left: 72px;
   margin-top: 20px;
 }
 .navV {
-  margin-left: 620px;
+  margin-left: 550px;
   margin-top: -25px;
   display: flex;
 }
+
+
+
 .nav li {
   list-style-type: none;
   display: inline-block;
@@ -85,6 +91,17 @@ body {
   line-height: 33px;
   color: #322f2e;
 }
+
+.containerr{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.ART_ALL{
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .container h1 {
   font-family: "Roboto";
   font-style: normal;

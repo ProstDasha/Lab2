@@ -11,8 +11,9 @@ body {
   font-size: 12px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
-  display: grid;
   min-height: 100vh;
+  min-width: 1440px;
+  margin:0 auto;
 }
 .VnavV {
   margin:auto;
@@ -546,7 +547,7 @@ body {
 }
 .ART {
   display: flex;
-  width: 90%;
+  width: 1200px;
   padding: 43px 20px 45px 60px;
   align-items: center;
   border-radius: 10px;

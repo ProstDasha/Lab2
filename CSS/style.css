@@ -7,34 +7,26 @@
 }
 body {
   padding-top: 45px;
-  padding-left: 70px;
-  padding-right: 70px;
   background: linear-gradient(#fff8ee, white);
   font-size: 12px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   display: grid;
   min-height: 100vh;
-  min-width: 1440px;
 }
 .VnavV {
   margin:auto;
-  width: 1440px;
+  max-width: 1440px;
+  padding: 10px;
 }
-
-
-
 .logo {
   margin-top: 20px;
 }
 .navV {
-float: right;
+  float: right;
   margin-top: 25px;
   display: flex;
 }
-
-
-
 .nav li {
   list-style-type: none;
   display: inline-block;
@@ -234,7 +226,6 @@ float: right;
 }
 .Qq2 {
   position: relative;
-  padding-top: 30px;
   display: grid;
   grid-template-columns: 480px 480px;
 }
@@ -242,12 +233,12 @@ float: right;
   width: 450px;
   box-sizing: border-box;
   background: #fffaf2;
-  border-radius: 20px;
   border: #dddddd solid 1px;
   box-shadow: 1px 1px 20px rgb(0, 0, 0, 0.08);
   border-radius: 10px;
   padding: 50px;
   padding-bottom: 30px;
+  margin-top: 30px;
 }
 .QqQ img {
   display: block;
@@ -551,12 +542,11 @@ float: right;
 .ART_ALL {
   margin: auto;
   margin-top: 135px;
-  width: 1200px;
   width: 100%;
 }
 .ART {
   display: flex;
-  width: 1200px;
+  width: 90%;
   padding: 43px 20px 45px 60px;
   align-items: center;
   border-radius: 10px;
@@ -881,4 +871,10 @@ li input:checked + span {
 }
 .six:hover {
   transform: translateX(60px);
+}
+
+.ccontainerr{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 45px;
 }

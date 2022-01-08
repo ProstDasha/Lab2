@@ -547,7 +547,7 @@ body {
 }
 .ART {
   display: flex;
-  width: 1200px;
+  width: 80%;
   padding: 43px 20px 45px 60px;
   align-items: center;
   border-radius: 10px;
